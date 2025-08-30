@@ -59,6 +59,7 @@ npm run dev
 /BMad\agents:sm *create
 
 **** orchestrator prompt
+
 /BMad\agents:bmad-orchestrator Start below tasks using agents parallelly if possible
 Tasks:
 - Develop a story from docs/stories/1.3.story.md
