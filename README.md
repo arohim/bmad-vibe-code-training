@@ -58,15 +58,11 @@ npm run dev
 *** once 1.1 story has done you can continue create the next story by, you will get 1.2 story.md
 /BMad\agents:sm *create
 
-*** run BMAD orchestrator again but change to 1.2.story.md
-/BMad\agents:bmad-orchestrator ผมต้องการให้คุณทำการพัฒนาตาม story c:\Users\arohi\Documents\projects\my-logistic-bmad\docs\stories\1.2.story.md โดยให้คุณทำการวิเคราะห์ Sub-Agents ทั้งหมดที่ c:\Users\arohi\Documents\projects\my-logistic-bmad\.claude\agents แล้วทำการเลือกเอา Sub-Agents ที่เกี่ยวข้องกับการทำงานให้สำเร็จ ออกมาทำงานพร้อมกันแบบ Parallel (ถ้าเป็นไปได้) เมื่อทำงานเสร็จทั้ง Story แล้วให้เปลี่ยนบทบาทตัวเองเป็น Dev Agent เพื่อทำการ update file Story ให้พร้อมสำหรับการตรวจสอบโดย QA ในขั้นตอนต่อไป
-
-
 **** orchestrator prompt
 /BMad\agents:bmad-orchestrator Start below tasks using agents parallelly if possible
 Tasks:
 - Develop a story from docs/stories/1.3.story.md
-- Switch to Dev Agent and update story status
+- Switch to Dev Agent and update the story
 - Switch to QA Agent and verify the story
 
 
