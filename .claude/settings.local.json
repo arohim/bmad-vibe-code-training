@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(md-tree:*)"
+      "Bash(md-tree:*)",
+      "Bash(mkdir:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
