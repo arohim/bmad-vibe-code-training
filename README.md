@@ -11,16 +11,12 @@ Record training steps
 7. put "*agent architecture ต่อเลย" to create architecture spec.md
 
 *** create an empty folder
-1. create an empty folder for the project
-2. set up bmad-method `npx bmad-method install`
-3. Put dot (.) as a path
-4. select bmad-core
-5. select Y to shard prd and architecture files
-
-*** Create a project
-1. create docs folder and put prd.md and architecture.md in there
-
-
+1. Create an empty folder for the project
+2. Put prd.md and architecture.md in there
+3. set up bmad-method `npx bmad-method install`
+4. Put dot (.) as a path
+5. select bmad-core
+6. select Y to shard prd and architecture files
 
 *** sharding documents
 /BMad\agents:po *shard-doc docs/prd.md prd
