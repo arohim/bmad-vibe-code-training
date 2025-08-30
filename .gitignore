@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache directories
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Supabase
+.supabase/
+
+# BMAD Core (keep config but ignore generated files)
+.bmad-core/.cache/
+.bmad-core/temp/
+.bmad-core/logs/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package manager lock files (uncomment if using only one package manager)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Testing
+.jest/
+test-results/
+playwright-report/
