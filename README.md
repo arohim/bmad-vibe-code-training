@@ -10,9 +10,16 @@ Record training steps
 6. put "*agent uxui ต่อเลย" to create ux ui specification.md
 7. put "*agent architecture ต่อเลย" to create architecture spec.md
 
+*** create an empty folder
+1. create an empty folder for the project
+2. set up bmad-method `npx bmad-method install`
+3. Put dot (.) as a path
+4. select bmad-core
+5. select Y to shard prd and architecture files
 
 *** Create a project
 1. create docs folder and put prd.md and architecture.md in there
+
 
 
 *** sharding documents
