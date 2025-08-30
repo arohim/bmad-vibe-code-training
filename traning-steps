@@ -1,0 +1,24 @@
+*** sharding documents
+/BMad\agents:po *shard-doc docs/prd.md prd
+/BMad\agents:po *shard-doc docs/architecture.md architecture
+
+*** Scrum master to create stories
+/BMad\agents:sm *create
+
+*** Create agents
+1. /agents + Enter
+2. Follow the stemps
+3. Go to Gemini and asked to create agent prompts
+```
+*po สอบถามครับ ถ้าผมต้องการสร้าง sub agent ในการเขียนโปรแกรมทั้้งโปรเจคนี้ ควรมีใครบ้างครับ ที่ผมนึกออกน่าจะมี:
+
+React expert: ทำหน้าที่พัฒนา frontend
+
+Shadcn: ทำหน้าที่ UI UX ช่วย React expert
+
+ฺBackend expert: ทำหน้าที่ ดูแลหลังบ้านให้ระบบ
+
+ควรมีใครอีกไหม และแต่ละ sub agents ต้องมี job description อย่างไรให้ครบ ขอเป็น prompt พร้อมใช้งาน
+```
+
+*** 
