@@ -66,7 +66,7 @@ npm run dev
 /BMad\agents:bmad-orchestrator Start below tasks using agents parallelly if possible
 Tasks:
 - Develop a story from docs/stories/1.3.story.md
-- Switch to Dev Agent and update story.md
+- Switch to Dev Agent and update story status
 - Switch to QA Agent and verify the story
 
 
